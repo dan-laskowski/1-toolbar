@@ -13,12 +13,3 @@
 .navbar-list {
   list-style-type: none;
 }
-
-.navbar-list .navbar-link {
-  display: inline-block;
-  margin-left: 0.5rem;
-}
-
-.navbar-list .navbar-link a {
-  color: #ffc436;
-}

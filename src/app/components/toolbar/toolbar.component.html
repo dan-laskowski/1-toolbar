@@ -1,12 +1,12 @@
 <header class="header-wrapper">
   <div class="header-title">
-    <h1>{{ title | uppercase }}</h1>
+    <a href="/"
+      ><h1>{{ title | uppercase }}</h1></a
+    >
   </div>
   <nav class="navbar-navigation">
     <ul class="navbar-list">
-      @for(link of links; track link.id) {
-      <app-toolbar-link location=" link.location" name="link.name" />
-      }
+      <ng-content />
     </ul>
   </nav>
 </header>
